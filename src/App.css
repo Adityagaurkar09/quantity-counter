@@ -12,7 +12,6 @@
   width: 250px;
   display: block;
   margin: 10px auto;
-  
 }
 
 .card-title{
@@ -25,9 +24,23 @@
 .card-description{
   margin: 0  30px;
 }
+.price{
+  display: flex;
+  align-items: center;
+}
 .card-price{
   font-size: 20px;
+  font-weight: 600;
   margin: 15px;
+}
+.total-price{
+  font-size: 20px;
+  margin: 12px;
+}
+.card-error{
+  color: red;
+text-align: center;
+
 }
 .sign{
   height: 40px;
