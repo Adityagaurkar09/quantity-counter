@@ -5,6 +5,7 @@
   display: block;
   margin: 10px auto;
   background-color: #fff;
+  border-radius: 10px;
 }
 
 .card-img{
@@ -16,5 +17,35 @@
 
 .card-title{
   text-align: center;
-
+}
+.card-description{
+  text-align: justify;
+  font-size: 20px;
+}
+.card-description{
+  margin: 0  30px;
+}
+.card-price{
+  font-size: 20px;
+  margin: 15px;
+}
+.sign{
+  height: 40px;
+}
+.sing-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.couting{
+  font-size: 35px;
+}
+.btn{
+  display: block;
+  margin: 10px auto;
+  padding: 10px 7px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(189, 178, 164);
+  cursor: pointer;
 }
